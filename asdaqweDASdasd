@@ -1,0 +1,543 @@
+local NeyronInternal = Instance.new("ScreenGui")
+local NeyronX = Instance.new("Frame")
+local borup = Instance.new("Frame")
+local x = Instance.new("TextButton")
+local label = Instance.new("TextLabel")
+local cmdx = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local rev = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local _1 = Instance.new("Frame")
+local UICorner_3 = Instance.new("UICorner")
+local name = Instance.new("TextLabel")
+local profile = Instance.new("ImageLabel")
+local exap = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local logs = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local down = Instance.new("Frame")
+local ez = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local btools = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local WalkSpeed = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local JumpPower = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local InfYeild = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local Backdoor = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local SS = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local TrollGUI = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local functions = Instance.new("TextLabel")
+local Executor = Instance.new("Frame")
+local bup = Instance.new("Frame")
+local execute = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local clear = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local Executor_2 = Instance.new("TextBox")
+local close = Instance.new("TextButton")
+local exlabel = Instance.new("TextLabel")
+
+--Properties:
+
+NeyronInternal.Name = "NeyronInternal"
+NeyronInternal.Parent = game.CoreGui
+NeyronInternal.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+NeyronX.Name = "NeyronX"
+NeyronX.Parent = NeyronInternal
+NeyronX.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+NeyronX.Position = UDim2.new(0.138231635, 0, 0.222011387, 0)
+NeyronX.Size = UDim2.new(0, 425, 0, 270)
+NeyronX.Active = true
+NeyronX.Draggable = true
+
+
+borup.Name = "borup"
+borup.Parent = NeyronX
+borup.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+borup.Size = UDim2.new(0, 425, 0, 29)
+
+x.Name = "x"
+x.Parent = NeyronX
+x.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+x.BackgroundTransparency = 1.000
+x.Position = UDim2.new(0.92235297, 0, 0, 0)
+x.Size = UDim2.new(0, 33, 0, 29)
+x.Font = Enum.Font.SourceSans
+x.Text = "X"
+x.TextColor3 = Color3.fromRGB(255, 255, 255)
+x.TextScaled = true
+x.TextSize = 14.000
+x.TextWrapped = true
+
+label.Name = "label"
+label.Parent = NeyronX
+label.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+label.BackgroundTransparency = 1.000
+label.Size = UDim2.new(0, 129, 0, 29)
+label.Font = Enum.Font.SourceSans
+label.Text = "Neyron X - Internal UI"
+label.TextColor3 = Color3.fromRGB(255, 255, 255)
+label.TextSize = 14.000
+
+cmdx.Name = "cmdx"
+cmdx.Parent = NeyronX
+cmdx.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+cmdx.Position = UDim2.new(0.0117647052, 0, 0.707407355, 0)
+cmdx.Size = UDim2.new(0, 124, 0, 32)
+cmdx.Font = Enum.Font.SourceSans
+cmdx.Text = "Cmd X"
+cmdx.TextColor3 = Color3.fromRGB(255, 255, 255)
+cmdx.TextSize = 20.000
+cmdx.TextStrokeColor3 = Color3.fromRGB(84, 84, 84)
+cmdx.TextStrokeTransparency = 0.000
+cmdx.TextWrapped = true
+
+UICorner.CornerRadius = UDim.new(0, 5)
+UICorner.Parent = cmdx
+
+rev.Name = "rev"
+rev.Parent = NeyronX
+rev.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+rev.Position = UDim2.new(0.0117647052, 0, 0.851851821, 0)
+rev.Size = UDim2.new(0, 124, 0, 32)
+rev.Font = Enum.Font.SourceSans
+rev.Text = "Reviz Admin"
+rev.TextColor3 = Color3.fromRGB(255, 255, 255)
+rev.TextSize = 20.000
+rev.TextStrokeColor3 = Color3.fromRGB(84, 84, 84)
+rev.TextStrokeTransparency = 0.000
+rev.TextWrapped = true
+
+UICorner_2.CornerRadius = UDim.new(0, 5)
+UICorner_2.Parent = rev
+
+_1.Name = "1"
+_1.Parent = NeyronX
+_1.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+_1.Position = UDim2.new(0.0117647061, 0, 0.137037039, 0)
+_1.Size = UDim2.new(0, 124, 0, 110)
+
+UICorner_3.CornerRadius = UDim.new(0, 3)
+UICorner_3.Parent = NeyronX
+
+name.Name = "name"
+name.Parent = NeyronX
+name.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+name.BackgroundTransparency = 1.000
+name.Position = UDim2.new(0.0117647061, 0, 0.544444442, 0)
+name.Size = UDim2.new(0, 124, 0, 38)
+name.Font = Enum.Font.SourceSans
+name.Text = "..."
+name.TextColor3 = Color3.fromRGB(255, 255, 255)
+name.TextSize = 15.000
+
+profile.Name = "profile"
+profile.Parent = NeyronX
+profile.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+profile.Position = UDim2.new(0.0117647061, 0, 0.137037039, 0)
+profile.Size = UDim2.new(0, 124, 0, 110)
+profile.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+
+exap.Name = "exap"
+exap.Parent = NeyronX
+exap.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+exap.Position = UDim2.new(0.663764715, 0, 0.54092592, 0)
+exap.Size = UDim2.new(0, 124, 0, 32)
+exap.Font = Enum.Font.SourceSans
+exap.Text = "Executor"
+exap.TextColor3 = Color3.fromRGB(255, 255, 255)
+exap.TextSize = 20.000
+exap.TextStrokeColor3 = Color3.fromRGB(84, 84, 84)
+exap.TextStrokeTransparency = 0.000
+exap.TextWrapped = true
+
+UICorner_4.CornerRadius = UDim.new(0, 5)
+UICorner_4.Parent = exap
+
+logs.Name = "logs"
+logs.Parent = NeyronX
+logs.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+logs.Position = UDim2.new(0.329647034, 0, 0.704444468, 0)
+logs.Size = UDim2.new(0, 124, 0, 32)
+logs.Font = Enum.Font.SourceSans
+logs.Text = "Chat Logs"
+logs.TextColor3 = Color3.fromRGB(255, 255, 255)
+logs.TextSize = 20.000
+logs.TextStrokeColor3 = Color3.fromRGB(84, 84, 84)
+logs.TextStrokeTransparency = 0.000
+logs.TextWrapped = true
+
+UICorner_5.CornerRadius = UDim.new(0, 5)
+UICorner_5.Parent = logs
+
+down.Name = "down"
+down.Parent = NeyronX
+down.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+down.Position = UDim2.new(0, 0, 0.107407391, 0)
+down.Size = UDim2.new(0, 425, 0, 2)
+
+ez.Name = "ez"
+ez.Parent = NeyronX
+ez.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+ez.Position = UDim2.new(0.331764698, 0, 0.851851821, 0)
+ez.Size = UDim2.new(0, 124, 0, 32)
+ez.Font = Enum.Font.SourceSans
+ez.Text = "Ez Hub"
+ez.TextColor3 = Color3.fromRGB(255, 255, 255)
+ez.TextSize = 20.000
+ez.TextStrokeColor3 = Color3.fromRGB(84, 84, 84)
+ez.TextStrokeTransparency = 0.000
+ez.TextWrapped = true
+
+UICorner_6.CornerRadius = UDim.new(0, 5)
+UICorner_6.Parent = ez
+
+btools.Name = "btools"
+btools.Parent = NeyronX
+btools.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+btools.Position = UDim2.new(0.663529396, 0, 0.851851821, 0)
+btools.Size = UDim2.new(0, 124, 0, 32)
+btools.Font = Enum.Font.SourceSans
+btools.Text = "BTools"
+btools.TextColor3 = Color3.fromRGB(255, 255, 255)
+btools.TextSize = 20.000
+btools.TextStrokeColor3 = Color3.fromRGB(84, 84, 84)
+btools.TextStrokeTransparency = 0.000
+btools.TextWrapped = true
+
+UICorner_7.CornerRadius = UDim.new(0, 5)
+UICorner_7.Parent = btools
+
+WalkSpeed.Name = "WalkSpeed"
+WalkSpeed.Parent = NeyronX
+WalkSpeed.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+WalkSpeed.Position = UDim2.new(0.32764706, 0, 0.542777777, 0)
+WalkSpeed.Size = UDim2.new(0, 124, 0, 32)
+WalkSpeed.Font = Enum.Font.SourceSans
+WalkSpeed.Text = "WalkSpeed"
+WalkSpeed.TextColor3 = Color3.fromRGB(255, 255, 255)
+WalkSpeed.TextSize = 20.000
+WalkSpeed.TextStrokeColor3 = Color3.fromRGB(84, 84, 84)
+WalkSpeed.TextStrokeTransparency = 0.000
+WalkSpeed.TextWrapped = true
+
+UICorner_8.CornerRadius = UDim.new(0, 5)
+UICorner_8.Parent = WalkSpeed
+
+JumpPower.Name = "JumpPower"
+JumpPower.Parent = NeyronX
+JumpPower.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+JumpPower.Position = UDim2.new(0.664117694, 0, 0.702037096, 0)
+JumpPower.Size = UDim2.new(0, 124, 0, 32)
+JumpPower.Font = Enum.Font.SourceSans
+JumpPower.Text = "JumpPower"
+JumpPower.TextColor3 = Color3.fromRGB(255, 255, 255)
+JumpPower.TextSize = 20.000
+JumpPower.TextStrokeColor3 = Color3.fromRGB(84, 84, 84)
+JumpPower.TextStrokeTransparency = 0.000
+JumpPower.TextWrapped = true
+
+UICorner_9.CornerRadius = UDim.new(0, 5)
+UICorner_9.Parent = JumpPower
+
+InfYeild.Name = "InfYeild"
+InfYeild.Parent = NeyronX
+InfYeild.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+InfYeild.Position = UDim2.new(0.664117694, 0, 0.235370427, 0)
+InfYeild.Size = UDim2.new(0, 124, 0, 32)
+InfYeild.Font = Enum.Font.SourceSans
+InfYeild.Text = "Infinity Yield"
+InfYeild.TextColor3 = Color3.fromRGB(255, 255, 255)
+InfYeild.TextSize = 20.000
+InfYeild.TextStrokeColor3 = Color3.fromRGB(84, 84, 84)
+InfYeild.TextStrokeTransparency = 0.000
+InfYeild.TextWrapped = true
+
+UICorner_10.CornerRadius = UDim.new(0, 5)
+UICorner_10.Parent = InfYeild
+
+Backdoor.Name = "Backdoor"
+Backdoor.Parent = NeyronX
+Backdoor.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+Backdoor.Position = UDim2.new(0.329647034, 0, 0.237777799, 0)
+Backdoor.Size = UDim2.new(0, 124, 0, 32)
+Backdoor.Font = Enum.Font.SourceSans
+Backdoor.Text = "Backdoor"
+Backdoor.TextColor3 = Color3.fromRGB(255, 255, 255)
+Backdoor.TextSize = 20.000
+Backdoor.TextStrokeColor3 = Color3.fromRGB(84, 84, 84)
+Backdoor.TextStrokeTransparency = 0.000
+Backdoor.TextWrapped = true
+
+UICorner_11.CornerRadius = UDim.new(0, 5)
+UICorner_11.Parent = Backdoor
+
+SS.Name = "SS"
+SS.Parent = NeyronX
+SS.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+SS.Position = UDim2.new(0.331764698, 0, 0.385185152, 0)
+SS.Size = UDim2.new(0, 124, 0, 32)
+SS.Font = Enum.Font.SourceSans
+SS.Text = "SS Executor"
+SS.TextColor3 = Color3.fromRGB(255, 255, 255)
+SS.TextSize = 20.000
+SS.TextStrokeColor3 = Color3.fromRGB(84, 84, 84)
+SS.TextStrokeTransparency = 0.000
+SS.TextWrapped = true
+
+UICorner_12.CornerRadius = UDim.new(0, 5)
+UICorner_12.Parent = SS
+
+TrollGUI.Name = "Troll GUI"
+TrollGUI.Parent = NeyronX
+TrollGUI.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+TrollGUI.Position = UDim2.new(0.663529396, 0, 0.385185152, 0)
+TrollGUI.Size = UDim2.new(0, 124, 0, 32)
+TrollGUI.Font = Enum.Font.SourceSans
+TrollGUI.Text = "Troll GUI"
+TrollGUI.TextColor3 = Color3.fromRGB(255, 255, 255)
+TrollGUI.TextSize = 20.000
+TrollGUI.TextStrokeColor3 = Color3.fromRGB(84, 84, 84)
+TrollGUI.TextStrokeTransparency = 0.000
+TrollGUI.TextWrapped = true
+
+UICorner_13.CornerRadius = UDim.new(0, 5)
+UICorner_13.Parent = TrollGUI
+
+functions.Name = "functions"
+functions.Parent = NeyronX
+functions.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+functions.BackgroundTransparency = 1.000
+functions.Position = UDim2.new(0.479999989, 0, 0.114814818, 0)
+functions.Size = UDim2.new(0, 129, 0, 29)
+functions.Font = Enum.Font.SourceSans
+functions.Text = "Functions:"
+functions.TextColor3 = Color3.fromRGB(255, 255, 255)
+functions.TextSize = 14.000
+
+Executor.Name = "Executor"
+Executor.Parent = NeyronInternal
+Executor.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Executor.Position = UDim2.new(0.661835849, 0, 0.222011387, 0)
+Executor.Size = UDim2.new(0, 268, 0, 270)
+Executor.Visible = false
+
+bup.Name = "bup"
+bup.Parent = Executor
+bup.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+bup.Size = UDim2.new(0, 268, 0, 29)
+
+execute.Name = "execute"
+execute.Parent = Executor
+execute.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+execute.Position = UDim2.new(0.0298507456, 0, 0.851851881, 0)
+execute.Size = UDim2.new(0, 119, 0, 32)
+execute.Font = Enum.Font.SourceSans
+execute.Text = "Execute"
+execute.TextColor3 = Color3.fromRGB(255, 255, 255)
+execute.TextSize = 20.000
+execute.TextStrokeColor3 = Color3.fromRGB(84, 84, 84)
+execute.TextStrokeTransparency = 0.000
+execute.TextWrapped = true
+
+UICorner_14.CornerRadius = UDim.new(0, 5)
+UICorner_14.Parent = execute
+
+clear.Name = "clear"
+clear.Parent = Executor
+clear.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+clear.Position = UDim2.new(0.512421131, 0, 0.851851881, 0)
+clear.Size = UDim2.new(0, 119, 0, 32)
+clear.Font = Enum.Font.SourceSans
+clear.Text = "Clear"
+clear.TextColor3 = Color3.fromRGB(255, 255, 255)
+clear.TextSize = 20.000
+clear.TextStrokeColor3 = Color3.fromRGB(84, 84, 84)
+clear.TextStrokeTransparency = 0.000
+clear.TextWrapped = true
+
+UICorner_15.CornerRadius = UDim.new(0, 5)
+UICorner_15.Parent = clear
+
+Executor_2.Name = "Executor"
+Executor_2.Parent = Executor
+Executor_2.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Executor_2.Position = UDim2.new(0, 0, 0.125925928, 0)
+Executor_2.Size = UDim2.new(0, 267, 0, 186)
+Executor_2.Font = Enum.Font.SourceSans
+Executor_2.Text = ""
+Executor_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Executor_2.TextSize = 14.000
+
+close.Name = "close"
+close.Parent = Executor
+close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+close.BackgroundTransparency = 1.000
+close.Position = UDim2.new(0.873845518, 0, 0, 0)
+close.Size = UDim2.new(0, 33, 0, 29)
+close.Font = Enum.Font.SourceSans
+close.Text = "X"
+close.TextColor3 = Color3.fromRGB(255, 255, 255)
+close.TextScaled = true
+close.TextSize = 14.000
+close.TextWrapped = true
+
+exlabel.Name = "exlabel"
+exlabel.Parent = Executor
+exlabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+exlabel.BackgroundTransparency = 1.000
+exlabel.Size = UDim2.new(0, 129, 0, 29)
+exlabel.Font = Enum.Font.SourceSans
+exlabel.Text = "Neyron X - Executor"
+exlabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+exlabel.TextSize = 14.000
+
+-- Scripts:
+
+local function LPEV_fake_script() -- name.LocalScript 
+	local script = Instance.new('LocalScript', name)
+
+	local p = game.Players.LocalPlayer
+	
+	if p then
+		script.Parent.Text = "Hello!"..p.Name.."!"
+	end
+end
+coroutine.wrap(LPEV_fake_script)()
+local function PXHJ_fake_script() -- NeyronX.LocalScript 
+	local script = Instance.new('LocalScript', NeyronX)
+
+	local image = script.Parent:WaitForChild("profile")
+	
+	image.Image = game.Players:GetUserThumbnailAsync(game.Players.LocalPlayer.UserId, Enum.ThumbnailType.HeadShot, Enum.ThumbnailSize.Size420x420)
+end
+coroutine.wrap(PXHJ_fake_script)()
+
+--Functions
+
+InfYeild.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+
+WalkSpeed.MouseButton1Click:connect(function()
+	game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 150
+end)
+
+
+JumpPower.MouseButton1Click:connect(function()
+	game.Players.LocalPlayer.Character.Humanoid.JumpPower = 150
+end)
+
+
+Backdoor.MouseButton1Click:connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/iK4oS/backdoor.exe/master/source.lua'),true))()
+end)
+
+cmdx.MouseButton1Click:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
+end)
+
+ez.MouseButton1Click:connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/debug420/Ez-Industries-Launcher-Data/master/Launcher.lua'),true))()
+end)
+
+logs.MouseButton1Click:connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/wfp4bJi2', true))()
+end)
+
+x.MouseButton1Click:connect(function()
+	NeyronInternal:Destroy()
+end)
+
+SS.MouseButton1Click:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/GK7ZNmE6", true))()
+end)
+
+rev.MouseButton1Click:connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/Nh7n0hdX', true))()
+end)
+
+TrollGUI.MouseButton1Click:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/scripts/LoadstringPCsivCoOOjwk", true))()
+end)
+
+exap.MouseButton1Click:connect(function()
+	Executor.Visible = true
+end)
+
+clear.MouseButton1Click:connect(function()
+	Executor_2.Text = ("Cleared!")
+	wait(2)
+	Executor_2.Text = ("")
+end)
+
+execute.MouseButton1Click:connect(function()
+	loadstring(Executor_2.Text)
+end)
+
+close.MouseButton1Click:connect(function()
+	Executor.Visible = false
+end)
+
+btools.MouseButton1Click:connect(function()
+	local player = game.Players.LocalPlayer
+	local mouse = player:GetMouse()
+
+	-- Objects
+
+	local ScreenGui = Instance.new("ScreenGui")
+	local TextButton = Instance.new("TextButton")
+	local On = Instance.new("StringValue")
+
+	-- Properties
+
+	ScreenGui.Parent = player.PlayerGui
+
+	TextButton.Parent = ScreenGui
+	TextButton.BackgroundColor3 = Color3.new(0.784314, 0.784314, 0.784314)
+	TextButton.BorderSizePixel = 0
+	TextButton.Position = UDim2.new(0, 0, 0.455743879, 0)
+	TextButton.Size = UDim2.new(0, 186, 0, 35)
+	TextButton.Font = Enum.Font.SourceSans
+	TextButton.Text = "Btools (Off)"
+	TextButton.TextColor3 = Color3.new(0.27451, 0.27451, 0.27451)
+	TextButton.TextScaled = true
+	TextButton.TextSize = 14
+	TextButton.TextWrapped = true
+
+
+	On.Parent = TextButton
+	On.Value = "Off"
+
+	-- Scripts 
+
+	TextButton.MouseButton1Up:Connect(function()
+		if On.Value == "Off" then
+			On.Value = "On"
+			TextButton.Text = "Btools (On)"
+		else
+			On.Value = "Off"
+			TextButton.Text = "Btools (Off)"
+		end
+	end)
+
+	mouse.Button1Up:Connect(function()
+		if On.Value == "Off" then
+			print('btools off')
+		else
+			if mouse.Target.Locked == true then
+				mouse.Target:Destroy()
+			else
+				mouse.Target:Destroy()
+			end
+		end
+	end)
+end)
